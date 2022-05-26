@@ -1,5 +1,5 @@
 # Site-em-30-dias-Ingles
-Site em 30 dias [Inglês]
+Projeto de criação de um site em 30 dias, com base nas tecnologias web.
 
 ## Adicionar repositório
 
