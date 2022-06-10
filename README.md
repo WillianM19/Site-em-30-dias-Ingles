@@ -5,7 +5,8 @@ Projeto de estudo das tecnologias web por 30 dias, tomando como base a palestra 
 
 ## ℹ️ Sobre o Projeto
 
-Criação de um Blog básico, usando tecnologías web (html, css, js).
+Criação de um Blog básico, usando tecnologías web (html, css, js).<br>
+Veja: [Kanban do Projeto](https://github.com/users/WillianM19/projects/1)
 
 ## 📂 Conteúdo Útil:
 
