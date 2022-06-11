@@ -4,11 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Color palette */
+:root {
+    --main-color: #00f3b7;
+    --main-color-dark: #00c493;
+    --sec-color: #f3005a;
+    --main-background-color: #ececec;
+    --sec-background-color: white;
+    --text-color: white;
+    --text-color-r: black;
+}
+/* End color palette */
+
 /* Nav */
+header {
+    position: fixed;
+    width: 100%;
+}
 nav {
     padding: 20px 30px;
     border-bottom: 1px solid #8080805b;
-    background-color: rgb(236, 236, 236);
+    background-color: rgba(0, 0, 0, 0.473);
+    color: var(--text-color);
 }
 nav ul {
     display: flex;
@@ -21,8 +38,9 @@ nav li {
     align-items: center;
     gap: 5px;
 }
-nav li:nth-child(2){
+nav li:nth-child(2){ /* ThirtyDays title */
     font-size: 23pt;
+    font-weight: bolder;
 }
 .navItem {
     transition: .2s;
@@ -34,15 +52,15 @@ nav li:nth-child(2){
 .navItem:hover {
     transition: .2s;
     transform: scale(1.05);
-    border: 1px solid black;
+    border: 1px solid white;
 }
 /* End nav */
 /* Main */
-main {
+#firstConteiner {
     background-image: url(https://images.unsplash.com/photo-1648737155328-0c0012cf2f20?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: var(--text-color);
     height: calc(100vh - 77px);
 }
 
@@ -69,7 +87,7 @@ main {
     background-color: rgba(0, 0, 0, 0.582);
     color: white;
     padding: 10px;
-    border: 1px solid rgb(228, 91, 91);;
+    border: 1px solid var(--main-color);;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bolder;
@@ -77,7 +95,7 @@ main {
 
 .conteiner button:hover{
     transition: .2s;
-    background-color: rgb(228, 91, 91);
+    background-color: var(--main-color-dark);
 }
 /* End Main */
 /* footer */
@@ -85,7 +103,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(51, 48, 48);
-    color: white;
+    color: var(--text-color);
     padding: 40px 30px;
     height: 30vh;
 }
