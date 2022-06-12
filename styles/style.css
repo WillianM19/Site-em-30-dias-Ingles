@@ -12,7 +12,8 @@
     --main-background-color: #ececec;
     --sec-background-color: white;
     --text-color: white;
-    --text-color-r: black;
+    --text-color-g: #575757; /* gray */
+    --text-color-r: black; /* Reverse */
 }
 /* End color palette */
 
@@ -44,7 +45,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
 }
 .navItem {
     transition: .2s;
-    border: 1px solid rgba(128, 128, 128, 0.342);
+    border: 1px solid rgba(214, 214, 214, 0.342);
     padding: 5px 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -61,9 +62,42 @@ nav li:nth-child(2){ /* ThirtyDays title */
     background-position: center;
     background-size: cover;
     color: var(--text-color);
-    height: calc(100vh - 77px);
+    height: 100vh;
 }
-
+/* ContentConteiner */
+#contentConteiner {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    background-color: var(--main-background-color);
+}
+#contentConteiner h2 {
+    font-size: 25pt;
+    color: var(--text-color-g);
+}
+.contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    padding: 50px 20px;
+}
+.boxItem  {
+    background-color: var(--sec-background-color);
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+    transition: .2s;
+}
+.boxItem img {
+    width: 150px;
+}
+.boxItem:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.288);
+    transition: .2s;
+}
 .conteiner {
     display: flex;
     flex-direction: column;
@@ -71,12 +105,14 @@ nav li:nth-child(2){ /* ThirtyDays title */
     align-items: center;
     text-align: center;
     gap: 20px;
-    background-color: rgba(0, 0, 0, 0.623);
     height: 100%;
     width: 100%;
     padding: 20px 20vw;
 }
-
+/* End ContentConteiner */
+.black-overlay {
+    background-color: rgba(0, 0, 0, 0.623);
+}
 .conteiner h1 {
     font-size: 30pt;
 }
@@ -102,8 +138,8 @@ nav li:nth-child(2){ /* ThirtyDays title */
 footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(51, 48, 48);
-    color: var(--text-color);
+    background-color: var(--sec-background-color);
+    color: var(--text-color-r);
     padding: 40px 30px;
     height: 30vh;
 }
@@ -115,5 +151,4 @@ footer h1 {
     font-size: 17pt;
     border-bottom: 1px solid rgba(255, 255, 255, 0.151);
 }
-
 /* End footer */
