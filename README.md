@@ -8,7 +8,7 @@ Projeto de estudo das tecnologias web por 30 dias, tomando como base a palestra 
 Criação de um Blog básico, usando tecnologías web (html, css, js).<br>
 Veja: [Kanban do Projeto](https://github.com/users/WillianM19/projects/1)
 
-## 📂 Conteúdo Útil:
+## 📂 Conteúdo Útil
 
 - [git - guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 - [w3schools](https://www.w3schools.com)
@@ -16,7 +16,7 @@ Veja: [Kanban do Projeto](https://github.com/users/WillianM19/projects/1)
 
 ## 🤝 Contribuindo 
 
-### 📥 Adicionando repositório:
+### 📥 Adicionando repositório
 ```sh
 git remote add origin https://github.com/WillianM19/Site-em-30-dias-Ingles.git
 git clone https://github.com/WillianM19/Site-em-30-dias-Ingles.git
