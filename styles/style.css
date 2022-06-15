@@ -35,16 +35,14 @@ nav ul {
     align-items: center;
     list-style: none;
 }
-nav li {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
 nav li:nth-child(2){ /* ThirtyDays title */
     font-size: 23pt;
     font-weight: bolder;
 }
 .navItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     transition: .2s;
     border: 1px solid rgba(214, 214, 214, 0.342);
     padding: 5px 10px;
