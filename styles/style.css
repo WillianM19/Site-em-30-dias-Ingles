@@ -22,6 +22,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
+    transition: .3s;
 }
 nav {
     padding: 20px 30px;
