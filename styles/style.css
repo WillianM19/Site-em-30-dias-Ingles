@@ -53,6 +53,8 @@ nav li:nth-child(2){ /* ThirtyDays title */
     transition: .2s;
     transform: scale(1.05);
     border: 1px solid white;
+    background-color: var(--sec-color);
+    font-weight: bolder;
 }
 /* End nav */
 /* Main */
