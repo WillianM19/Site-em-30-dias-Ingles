@@ -57,8 +57,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
 .navItem:hover {
     transition: .2s;
     transform: scale(1.05);
-    border: 1px solid white;
-    background-color: var(--sec-color);
+    border: 1px solid var(--main-color);
     font-weight: bolder;
 }
 /* End nav */
@@ -85,8 +84,8 @@ nav li:nth-child(2){ /* ThirtyDays title */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 7vw;
-    padding: 50px 20px;
+    gap: 2vw;
+    padding: 50px 100px;
 }
 .boxItem  {
     background-color: var(--sec-background-color);
@@ -95,6 +94,9 @@ nav li:nth-child(2){ /* ThirtyDays title */
     box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.288);
     cursor: pointer;
     transition: .2s;
+    height: 400px;
+    width: 25vw;
+    overflow: auto;
 }
 .boxItem img {
     width: 150px;
@@ -102,6 +104,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
 .boxItem:hover {
     transform: scale(1.1);
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.288);
+    border: 1px solid var(--main-color);
     transition: .2s;
 }
 .conteiner {
