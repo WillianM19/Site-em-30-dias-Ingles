@@ -16,6 +16,7 @@ a {
     --main-background-color: #ececec;
     --sec-background-color: white;
     --transparent-dark: rgba(0, 0, 0, 0.473);
+    --material-dark: rgb(31, 31, 31);
     --text-color: white;
     --text-color-g: #575757; /* gray */
     --text-color-lg: rgb(141, 141, 141); /* light gray */
@@ -71,16 +72,24 @@ nav li:nth-child(2){ /* ThirtyDays title */
     color: var(--text-color);
     height: 100vh;
 }
+#firstConteiner div {/*first conteiner spacing*/
+    padding: 20px 20vw;
+}
 /* ContentConteiner */
 #contentConteiner {
     display: flex;
     flex-direction: column;
     padding: 100px 0;
-    background-color: var(--main-background-color);
+    background-image: linear-gradient(var(--main-color), var(--material-dark));
 }
 #contentConteiner h2 {
     font-size: 25pt;
-    color: var(--text-color-g);
+    color: var(--text-color);
+    background-color: var(--transparent-dark);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--text-color-lg);
+    width: 79vw;
 }
 .contentBox {
     display: flex;
@@ -90,7 +99,8 @@ nav li:nth-child(2){ /* ThirtyDays title */
     padding: 50px 100px;
 }
 .boxItem  {
-    background-color: var(--sec-background-color);
+    background-color: var(--transparent-dark);
+    color: var(--text-color);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.288);
@@ -120,7 +130,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
     gap: 20px;
     height: 100%;
     width: 100%;
-    padding: 20px 20vw;
+    
 }
 /* End ContentConteiner */
 .black-overlay {
@@ -149,7 +159,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
 /* End Main */
 /* footer */
 footer {
-    background-color: rgb(31, 31, 31);
+    background-color: var(--material-dark);
     color: var(--text-color-lg);
     padding: 10px 3vw;
 }
