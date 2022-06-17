@@ -1,7 +1,8 @@
 # ⏳ Site em 30 dias
 
 ![](screenshots/page-screenshot.png)
-![](screenshots/weeks-screenshot.png)
+![](screenshots/page-screenshot-2.png)
+![](screenshots/page-screenshot-3.png)
 
 Projeto de estudo das tecnologias web por 30 dias, tomando como base a palestra realizada por Matt Cutts no TED:<br> 
 [Matt Cutts: "Try Something New for 30 Days"](https://www.youtube.com/watch?v=nzRvMsrnoF8)
