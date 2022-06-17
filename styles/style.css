@@ -15,8 +15,10 @@ a {
     --sec-color: #f3005a;
     --main-background-color: #ececec;
     --sec-background-color: white;
+    --transparent-dark: rgba(0, 0, 0, 0.473);
     --text-color: white;
     --text-color-g: #575757; /* gray */
+    --text-color-lg: rgb(141, 141, 141); /* light gray */
     --text-color-r: black; /* Reverse */
 }
 /* End color palette */
@@ -31,7 +33,7 @@ header {
 nav {
     padding: 20px 30px;
     border-bottom: 1px solid #8080805b;
-    background-color: rgba(0, 0, 0, 0.473);
+    background-color: var(--transparent-dark);
     color: var(--text-color);
 }
 nav ul {
@@ -122,7 +124,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
 }
 /* End ContentConteiner */
 .black-overlay {
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: var(--transparent-dark);
 }
 .conteiner h1 {
     font-size: 30pt;
@@ -147,19 +149,65 @@ nav li:nth-child(2){ /* ThirtyDays title */
 /* End Main */
 /* footer */
 footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: var(--sec-background-color);
-    color: var(--text-color-r);
-    padding: 40px 30px;
-    height: 30vh;
+    background-color: rgb(31, 31, 31);
+    color: var(--text-color-lg);
+    padding: 10px 3vw;
 }
-footer ul {
+footer a {
+    color: var(--text-color-lg);
+    transition: .2s;
+}
+footer a:hover {
+    color: var(--text-color);
+    transition: .2s;
+}
+footer p:last-child{
+    text-align: center;
+    margin: 5px;
+}
+#footerTitle {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--text-color-lg);
+}
+#footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+    margin: 10px 0;
+}
+#footerContent ul {
     list-style: none;
 }
-
-footer h1 {
-    font-size: 17pt;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+/* githubProjectBtn */
+#githubProjectBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--text-color-lg) ;
 }
+#githubProjectBtn a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: 1px solid var(--text-color-lg);
+    width: 500px;
+    border-radius: 10px;
+}
+#githubProjectBtn a:hover {
+    border: 1px solid var(--main-color-dark);
+}
+
+#githubProjectBtn img{
+    display: inline-block;
+    width: 25px;
+
+}
+
+
+/* End githubProjectBtn */
 /* End footer */
