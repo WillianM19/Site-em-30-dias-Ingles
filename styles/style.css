@@ -12,10 +12,10 @@ a {
 :root {
     --main-color: #00f3b7;
     --main-color-dark: #00c493;
-    --sec-color: #f3005a;
+    --main-color-dark-2: #069e78;
     --main-background-color: #ececec;
     --sec-background-color: white;
-    --transparent-dark: rgba(0, 0, 0, 0.473);
+    --transparent-dark: rgba(0, 0, 0, 0.637);
     --material-dark: rgb(31, 31, 31);
     --text-color: white;
     --text-color-g: #575757; /* gray */
@@ -80,7 +80,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
     display: flex;
     flex-direction: column;
     padding: 100px 0;
-    background-image: linear-gradient(var(--main-color), var(--material-dark));
+    background-image: linear-gradient(var(--main-color-dark-2), var(--material-dark));
 }
 #contentConteiner h2 {
     font-size: 25pt;
@@ -130,7 +130,6 @@ nav li:nth-child(2){ /* ThirtyDays title */
     gap: 20px;
     height: 100%;
     width: 100%;
-    
 }
 /* End ContentConteiner */
 .black-overlay {
