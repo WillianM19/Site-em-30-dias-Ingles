@@ -22,8 +22,21 @@ a {
     --text-color-lg: rgb(141, 141, 141); /* light gray */
     --text-color-r: black; /* Reverse */
 }
+::selection {
+    background: var(--main-color-dark-2);
+}
 /* End color palette */
-
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 7px;               
+}
+::-webkit-scrollbar-track {
+    background: var(--material-dark);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color-dark-2);
+}
+/* End Scroll Bar */
 /* Nav */
 header {
     position: fixed;
