@@ -72,13 +72,5 @@
 #contentConteiner a:hover {
     text-decoration: underline;
 }
-.noIndent {
-    text-indent: unset;
-}
-.imgCenter {
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
 /* End Text Formatting */
 /* End Main */
