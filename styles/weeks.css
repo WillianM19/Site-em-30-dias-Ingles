@@ -14,6 +14,9 @@
     width: 79vw;
     overflow: auto;
 }
+.boxItem h3{
+    margin-bottom: 20px;
+}
 .boxItem img {
     width: 200px;
     height: 200px;

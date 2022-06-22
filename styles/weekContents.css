@@ -53,12 +53,7 @@
 }
 #contentConteiner img {
     margin: 25px 0;
-    min-width: 350px;
-}
-.imgCenter {
-    display: flex;
     width: 100%;
-    align-items: center;
 }
 #contentConteiner ul, #contentConteiner ol{
     list-style-position: inside;
