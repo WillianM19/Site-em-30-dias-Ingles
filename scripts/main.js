@@ -1,4 +1,4 @@
-//Scroll da barra de navegação
+//Scroll of the navigation bar
 var posAnterior = window.pageYOffset;
 window.addEventListener("scroll", () => {
     var posAtual = window.pageYOffset;
