@@ -32,6 +32,36 @@
     color: var(--text-color);
     text-align: justify;
 }
-
-
+/* Text Formatting */
+#contentConteiner h2 {
+    font-size: 20pt;
+    color: var(--text-color);
+    background: none;
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: auto;
+}
+#contentConteiner p {
+    text-indent: 50px;
+}
+#contentConteiner img {
+    position: relative;
+    margin: 25px auto;
+    width: 350px;
+}
+.imgCenter {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#contentConteiner ul {
+    list-style-position: inside;
+    list-style-type: square;
+    margin-left: 50px;
+}
+#contentConteiner li {
+    margin: 3px 0;
+}
+/* End Text Formatting */
 /* End Main */
