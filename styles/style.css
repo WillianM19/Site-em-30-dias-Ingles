@@ -22,10 +22,14 @@ a {
     --text-color-lg: rgb(141, 141, 141); /* light gray */
     --text-color-r: black; /* Reverse */
 }
+
+/* End color palette */
+html {
+    scroll-behavior: smooth;
+}
 ::selection {
     background: var(--main-color-dark-2);
 }
-/* End color palette */
 /* Scroll Bar */
 ::-webkit-scrollbar {
     width: 7px;               

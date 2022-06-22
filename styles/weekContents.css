@@ -23,7 +23,7 @@
 }
 .textBox {
     margin: 5px 10vw 50px 10vw;
-    padding: 30px;
+    padding: 30px 60px;
     background-color: var(--transparent-dark);
     border-radius: 10px;
     box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.288);
@@ -34,34 +34,48 @@
 }
 /* Text Formatting */
 #contentConteiner h2 {
-    font-size: 20pt;
+    font-size: 30pt;
     color: var(--text-color);
     background: none;
     border: none;
     padding: 10px 0;
-    border-radius: 10px;
     width: auto;
 }
+#contentConteiner h3 {
+    font-size: 19pt;
+}
+#contentConteiner h2, #contentConteiner h3, #contentConteiner h4, #contentConteiner p, #contentConteiner ul, #contentConteiner ol {
+    margin: 10px 0;
+}
 #contentConteiner p {
+    font-size: 15pt;
     text-indent: 50px;
 }
 #contentConteiner img {
-    position: relative;
-    margin: 25px auto;
-    width: 350px;
+    margin: 25px 0;
+    min-width: 350px;
 }
 .imgCenter {
     display: flex;
     width: 100%;
     align-items: center;
 }
-#contentConteiner ul {
+#contentConteiner ul, #contentConteiner ol{
     list-style-position: inside;
-    list-style-type: square;
     margin-left: 50px;
+    font-size: 15pt;
+}
+#contentConteiner ul{
+    list-style-type: square;
 }
 #contentConteiner li {
-    margin: 3px 0;
+    margin: 20px 0;
+}
+#contentConteiner a {
+    color: var(--main-color);
+}
+#contentConteiner a:hover {
+    text-decoration: underline;
 }
 /* End Text Formatting */
 /* End Main */
