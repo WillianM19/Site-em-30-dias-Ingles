@@ -125,7 +125,7 @@ nav li:nth-child(2){ /* ThirtyDays title */
     overflow-x: hidden;
 }
 .boxItem img {
-    width: 150px;
+    height: 150px;
     margin: 2em 0;
 }
 .boxItem:hover {
