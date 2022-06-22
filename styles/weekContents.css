@@ -53,7 +53,7 @@
 }
 #contentConteiner img {
     margin: 25px 0;
-    min-width: 350px;
+    width: 100%;
 }
 .imgCenter {
     display: flex;
