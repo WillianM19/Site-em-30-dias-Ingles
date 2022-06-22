@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     color: var(--text-color);
-    height: 35vh;
+    height: 40vh;
 }
 #firstConteiner .conteiner{
     display: flex;
