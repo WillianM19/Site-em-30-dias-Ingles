@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,134 @@
     <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="stylesheet" href="../../styles/weekContents.css">
-    <title>ThirtyDays</title>
+    <title>ThirtyDays - Project Base Creation</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
                 <a href="../../index.html">
-                    <li class="navItem" title="Go to Homepage"><img src="../../img/home-white.png" alt="" width="25px">Home</li>
+                    <li class="navItem" title="Go to Homepage"><img src="../../img/home-white.png" alt=""
+                            width="25px">Home</li>
                 </a>
                 <li>Thirty<span style="color: var(--main-color);">Days</span></li>
                 <a href="../weeks.html">
-                    <li class="navItem" title="See about..."><img src="../../img/timeline.png" alt="" width="25px">Timeline</li>
+                    <li class="navItem" title="See about..."><img src="../../img/timeline.png" alt=""
+                            width="25px">Timeline</li>
                 </a>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="firstConteiner" style="background-image: url(https://images.unsplash.com/photo-1630873706504-9916dd0773f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);">
+        <div id="firstConteiner"
+            style="background-image: url(https://images.unsplash.com/photo-1630873706504-9916dd0773f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);">
             <div class="conteiner black-overlay">
                 <h1>Project Base Creation</h1>
             </div>
         </div>
         <div id="contentConteiner">
             <div class="textBox">
-                <h2>Subtitle</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque dolorem eius totam eos. Consectetur, at eos sed dolore laborum ab iusto optio cum eligendi adipisci, velit saepe explicabo exercitationem similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptates consequatur eos est perferendis culpa odit autem hic eius mollitia possimus, aliquid, corporis sunt nemo, maxime laborum numquam dolores explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic quae obcaecati deleniti veniam, placeat saepe cum error ea doloribus quod adipisci ullam minus doloremque beatae? Molestiae quia deleniti voluptatibus?</p>
-                <span class="imgCenter"><img src="../../img/placeholder.png" alt=""></span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque dolorem eius totam eos. Consectetur, at eos sed dolore laborum ab iusto optio cum eligendi adipisci, velit saepe explicabo exercitationem similique Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque dolorem eius totam eos. Consectetur, at eos sed dolore laborum ab iusto optio cum eligendi adipisci, velit saepe explicabo exercitationem similique.</p>
+                <h2>Page contents</h2>
+
+                <ol>
+                    <li>
+                        <a href="Project_Base_Creation.html#introducao">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="Project_Base_Creation.html#hero">Hero</a>
+                    </li>
+                    <li>
+                        <a href="Project_Base_Creation.html#subcontent">Content subsections</a>
+                    </li>
+                    <li>
+                        <a href="Project_Base_Creation.html#subweek">WEEK subsections</a>
+                    </li>
+                </ol>
+                
+                
+
+                <h3 id="introducao">Introduction</h3>
+
+                <p>
+                    After creating the nav we develop the main content and subsections
+                </p>
+
+                <p>
+                    The main content of the home page is a large image with text, called a hero, this is usually done by applying the image directly to the CSS using a function called url
+                </p>
+
                 <br>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
+
+                <h3 id="hero">Hero</h3>
+                
+                <p>
+                    After importing the image, some adjustments were made using the css backgroud-position properties that define the initial position of the image a backgroud-size to specify its size and how it will adjust and a specific default height was also defined so that it occupies a larger size part of the screen
+                </p>
+
+
+                <span class="imgCenter"><img src="../../img/weekthree/cod_hero.png" alt="hero img code base"></span>
+                
+                
+                <p>
+                    below is an image of the first model developed
+                </p>
+
+                <span class="imgCenter"><img src="../../img/weekthree/New_hero.png" alt="old hero img"></span>
+
+                <p>
+                    The text was centered using flexbox, note that the navigation bar in this template was still static and not moving with the content
+                </p>
+
+                <p>
+                    In the template below, hero and nav are already very similar to the current site
+                </p>
+
+                <span class="imgCenter"><img src="../../img/weekthree/old_hero.png" alt="New hero img"></span>
+
+                <br>
+
+                <h3 id="subcontent">Content subsections</h3>
+                
+                <p>
+                    After hero came the content subsections where some more information about the project appears, such as the technologies tab that informs the languages used in the project and the documentation tab that shows the references used during our studies
+                </p>
+                
+
+                <p>
+                    Their alignment was done using flexbox, and they have a hover effect when the mouse is placed over the card it elevates and gains a highlight over the others.
+                </p>
+
+
+                <p>
+                    below is an image of the first model developed
+                </p>
+
+
+                <span class="imgCenter"><img src="../../img/weekthree/old_section_home.png" alt="old section img"></span>
+
+                <p>slightly more current version, some adjustments were made later</p>
+
+                <span class="imgCenter"><img src="../../img/weekthree/New_section_home.png" alt="new section img"></span>
+
+                <br>
+
+                <h3 id="subweek">   WEEK subsections</h3>
+
+                <p>
+                    The Week subsection was made following the same logic, only changing the style of the cards, on the week page they were aligned in columns using flexbox
+                </p>
+
+                <p>below is an image of the first model developed</p>
+
+                <span class="imgCenter"><img src="../../img/weekthree/old_weeks.png" alt="old section week img"></span>
+
+                <p>Actual model</p>
+
+                <span class="imgCenter"><img src="../../img/weekthree/New_weeks.png" alt="Actual model weeks"></span>
+
+                <br>
+
             </div>
         </div>
     </main>
@@ -86,4 +181,5 @@
     </footer>
     <script src="../../scripts/main.js"></script>
 </body>
+
 </html>
