@@ -239,8 +239,6 @@ footer p:last-child{
 /* Mobile Warning */
 #mobileWarning{
     position: fixed;
-    top: 0%;
-    left: 0;
     z-index: 1000;
     background-image: linear-gradient(var(--main-color-dark-2), var(--material-dark));
     width: 100vw;
