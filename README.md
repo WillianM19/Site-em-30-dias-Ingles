@@ -17,12 +17,4 @@ Criação de um Blog básico, usando tecnologias web (html, css, js).<br>
 
 ## 🤝 Contribuindo 
 
-### 📥 Adicionando repositório
-```sh
-git remote add origin https://github.com/WillianM19/Site-em-30-dias-Ingles.git
-git clone https://github.com/WillianM19/Site-em-30-dias-Ingles.git
-```
-
-### ➕ Mais...
-
-- 🌟 Adicione uma estrela 
+- 🌟 Adicione uma estrela :)
